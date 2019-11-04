@@ -10,11 +10,11 @@
 ------------------------------*************/
 
 /*************------------------------------
-    
+
 
     CSS INDEX
     ==================
-  
+
     1. Defualt Styles
     2. Homepage 1
         2.01. Header
@@ -72,9 +72,9 @@
      18. FAQ's
      19. Error 404
     20. Preview
-     
+
 ------------------------------*************/
-  
+
 /****---- Google Font ----****/
  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Poppins:300,400,500,600,700');
 /****---- Default CSS ----****/
@@ -85,74 +85,8 @@
      height: 100%;
      min-height: 100%;
 }
-/* <---- Dividers ----> */
-.con1 {
-  position: relative;
-  width: 48%;
-    height: 500px;
-    float: left;
-    margin-left: 1%;
-        
-}
-.con2 {
-  position: relative;
-  width: 48%;
-    height: 500px;
-    float: right;
-    margin-right: 1%;
-}
-.divider{
-    height: 100%;
-    width: 2%;
-    background-color: #FF5F04;
-    float: left;
-}
-.image {
-  width:100%;
-height:100%;
-}
-.image2 {
-  width:100%;
-height:100%;
-}
- .container2{
-     overflow: auto; 
-     height: 500px;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: #008CBA;
-  transition: .5s ease;
-}
-.overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
 
-.con1:hover .overlay {
-  opacity: 1;
-}
 
-.con2:hover .overlay2 {
-  opacity: 1;
-}
-
-/*<-- CC -->*/
 
  .wraper{
      min-height: 100%;
@@ -410,10 +344,6 @@ height:100%;
 }
  .content_sec {
      margin-top: 60px;
-}
- .content_sec2 {
-     margin-top: 60px;
-     overflow:hidden; height:100%;
 }
  #work-status .section_heading {
      display: none;
@@ -693,7 +623,7 @@ height:100%;
 }
 /*---- Slider ----*/
  #slider .rev_slider{
-     min-height:80vh 
+     min-height:80vh
 }
  #slider .tp-caption.rev-btn:hover {
      background:none !important;
@@ -1094,7 +1024,7 @@ height:100%;
  section#testimonials .testimonials-slider .item::before{
      content:url('../img/testimonial_quote.png');
      position: relative;
-     top: -25px 
+     top: -25px
 }
  section#testimonials .testimonials-slider .item .comment p{
      font-size:16px;
@@ -1143,12 +1073,6 @@ height:100%;
 }
 /*---- Footer ----*/
  footer{
-     padding:100px 0;
-     min-height: 600px;
-     margin-top: -600px;
-     font-family: 'Poppins', sans-serif;
-}
- footer .blog{
      padding:100px 0;
      min-height: 600px;
      margin-top: -600px;
@@ -1307,7 +1231,7 @@ height:100%;
  .header-top.contact_info .mail-call i::before {
      font-size: 16px;
      margin-right:10px;
-     color: #fff 
+     color: #fff
 }
  .header-top.contact_info .mail-call .mail-to, .header-top.contact_info .mail-call .call-on {
      display: inline-block;
@@ -1384,7 +1308,7 @@ height:100%;
      margin:5px 0;
 }
  section#about-us.index-2 .qualities .column .description p{
-     padding-bottom: 0 
+     padding-bottom: 0
 }
 /*---- Services ----*/
  section#services.index-2 {
@@ -1510,7 +1434,7 @@ height:100%;
      text-align: center;
 }
  section#work-status.index-2 .counter-column .counter_content{
-     width: 100% 
+     width: 100%
 }
  section#work-status.index-2 .counter-column .counter_content .title{
      margin-top: 10px;
@@ -1523,9 +1447,9 @@ height:100%;
      border-radius:20px;
      background:#fff;
      border:solid 1px #e0e0e0;
-     padding:30px;
+     padding:20px;
      transition: all 0.5s ease;
-     position: relative 
+     position: relative
 }
  .index-2 .team-card:after, .index-2 .team-card:before {
      bottom: 100%;
@@ -2094,14 +2018,6 @@ height:100%;
      background:url(../img/lightgrey.jpg) no-repeat right top;
      background-size:cover;
 }
- footer.index-3.home{
-     position:absolute;
-     padding:100px 0 0;
-     min-height: 600px;
-     margin-top: -120px;
-     background:url(../img/lightgrey.jpg) no-repeat right top;
-     background-size:cover;
-}
  footer.index-2 .section_heading {
      text-align: left;
 }
@@ -2173,7 +2089,7 @@ height:100%;
  footer.index-2 .contact-form form input[type="text"], footer.index-2 .contact-form form textarea{
      background:none;
      border:solid 1px #262626;
-     color:#000000 
+     color:#000000
 }
  footer.index-2 .contact-form form button[type="submit"]{
      padding:10px 30px;
@@ -2256,7 +2172,16 @@ height:100%;
 }*/
  .slider.index-3 .owl-main .item::after{
      content:'';
-     background:rgba(0, 0, 0, 0.7);
+     background:rgba(0, 0, 0, 0.3);
+     height:100%;
+     width:100%;
+     z-index:1;
+     position: absolute;
+     top:0;
+}
+.slider.index-3 .owl-main .item2::after{
+     content:'';
+     background:rgba(0, 0, 0);
      height:100%;
      width:100%;
      z-index:1;
@@ -2305,7 +2230,7 @@ height:100%;
      border:solid 1px #fff;
      color:#fff;
      padding:10px 25px;
-     background:none 
+     background:none
 }
  .slider.index-3 .owl-main .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover {
      background:none;
@@ -2387,7 +2312,7 @@ height:100%;
 }
  section#about-us.index-3 .content-area{
      margin-top: 20px;
-     padding-left: 0 
+     padding-left: 0
 }
 /*---- Services ----*/
  section#services.index-3 {
@@ -2530,12 +2455,12 @@ height:100%;
      text-align: left;
      padding:25px;
      position: relative;
-     margin-bottom: 0 
+     margin-bottom: 0
 }
  section#otherservices.index-3 .item .team-card .name_designation {
      text-align: left;
      margin-bottom:10px;
-     margin-top: 0 
+     margin-top: 0
 }
  section#otherservices.index-3 .item:hover .team-card{
      -webkit-box-shadow: 0px 15px 32px -14px rgba(173,173,173,1);
@@ -2843,7 +2768,7 @@ height:100%;
      min-height: 600px;
      margin-top: -600px;
      background:url(../img/footer-bg.jpg) no-repeat right top;
-     background-size: cover 
+     background-size: cover
 }
  footer.index-3 .about {
      padding-right: 50px;
@@ -3112,7 +3037,7 @@ height:100%;
      margin-top: -140px;
 }
  footer.inner.index-2 .bottom{
-     margin-top:0 
+     margin-top:0
 }
 /****---- About Us 2 End ----****/
 /****---- About Us 3 Start ----****/
@@ -3133,7 +3058,7 @@ height:100%;
      margin-top: -140px;
 }
  footer.inner.index-3 .bottom{
-     margin-top:0 
+     margin-top:0
 }
  .wraper-v2-inner section#qualities.index-3{
      padding:0;
@@ -3637,7 +3562,7 @@ height:100%;
      padding:20px;
      border:solid 1px #e6e6e6;
      border-top:0px;
-     width: 100% 
+     width: 100%
 }
  section#blog-post-list .post-detail h5 a{
      color:#262626;
@@ -3818,7 +3743,7 @@ height:100%;
      font-size: 14px;
 }
  .sidebar .widget .widget-content .tags{
-     width: 100% 
+     width: 100%
 }
  .sidebar .widget .widget-content .tags ul{
      list-style:none;
@@ -3977,7 +3902,7 @@ height:100%;
  section#single-post-detail .comment-item {
      margin-top: 30px;
      display: inline-block;
-     width: 100% 
+     width: 100%
 }
  section#single-post-detail .comments ol.comments-list {
      list-style: none;
@@ -4189,7 +4114,7 @@ height:100%;
  section#contact-us .form-header{
      padding:20px 0 10px 0;
      margin: 0;
-     color: #fff 
+     color: #fff
 }
  section#contact-us .form-header h4, section#contact-us .form-header p{
      color: #fff;
@@ -4247,7 +4172,7 @@ height:100%;
      padding-left: 15px;
 }
  section#faq #accordion ul li {
-    
+
      padding:0px 0 20px 0;
      color:#797979;
      font-size: 14px;
@@ -4334,7 +4259,7 @@ section#faq #accordion .card-body1 ul li{
      display:inline-block;
 }
 /****---- Error 404 End ----****/
- 
+
 
 /* .description p {
     opacity: 0.0;
@@ -4380,6 +4305,10 @@ section#faq #accordion .card-body1 ul li{
     padding-right: 1.8rem;
     padding-left: 1.8rem;
   }
+  .index-2 .team-card{
+      margin-left: 12px;
+ }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -4391,9 +4320,6 @@ section#faq #accordion .card-body1 ul li{
     text-align: center;
     padding: 2.25rem;
   }
-    .icon .flexible{
-        margin-top: 30px;
-    }
 }
 
 .cta-inner h6 {
@@ -4414,12 +4340,12 @@ section#faq #accordion .card-body1 ul li{
 }
 
 .mail-to a {
-   color: #ffffff; 
+   color: #ffffff;
 }
 
 #return-to-top {
     position: fixed;
-    z-index: 1000; 
+    z-index: 1000;
     bottom: 20px;
     right: 20px;
     background: #ff6204;
@@ -4460,103 +4386,22 @@ section#faq #accordion .card-body1 ul li{
 img.rcorners2 {
   border-radius: 35px;
     padding: 20px;
-    
+
 }
 #mailUs{
     margin-top: 107px;
 }
-.mobileShow {display: none;} 
+.mobileShow {display: none;}
 
- @media only screen and (max-device-width: 667px) 
-    and (-webkit-device-pixel-ratio: 2) {
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
       .mobileShow {display: inline;
-        }
-        .team-card{
-            float: none;
-            margin-left: 34px;
         }
   }
 
-@media only screen 
-    and (min-device-width : 375px) // or 213.4375em
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 375px) // or 23.4375em
-    and (height : 559px) // or 34.9375em
-    and (orientation : portrait) 
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 375/559)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{ 
-.mobileShow {display: inline;
-        }
-        .team-card{
-            float: none;
-            margin-left: 34px;
-        }
-}
 
-@media only screen 
-    and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 667px) // or 41.6875em
-    and (height : 375px) // or 23.4375em
-    and (orientation : landscape) 
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 667/375)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{
-.mobileShow {display: inline;
-        }
-        .team-card{
-            float: none;
-            margin-left: 34px;
-        }
-}
-.socialcircle {
-  height: 25px;
-  width: 25px;
-  font-size: 1.7rem;
-  border-radius: 50%;
-  line-height: 1.4;
-  margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #ff6204;
-    display: inline-block;
-}
-.socialcircle i {
-    top: 50%;
-    right: 50%;
-    height: 50%;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    display: block;
-}
-
-
-/*- ----- */
-.circle {
-    box-shadow: 0 0 0 3px #ff6204;
-    line-height: 1.4;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    border-radius: 100%;
-    margin-right: 25px; 
-}
-.circle i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 50%;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    display: block;
-}
 
 /*.nav-brand img {
     width: 150px;

@@ -1,0 +1,33 @@
+<?php
+$CONFIG = array (
+  'instanceid' => 'ocpdmrfvr2jr',
+  'passwordsalt' => '53487125136132901545167226095587',
+  'secret' => 'qhuzpl5sqn0yerujntsvrvvcyjievemafvdpmsyryainnxqel1rnlalowd0npnkmpfe1qhmltdwy4eiobv04f7zjw9lk9d0h',
+  'trusted_domains' => 
+  array (
+    0 => 'relocationsplus.com',
+  ),
+  'datadirectory' => '/home/relocap/ownclouddata',
+  'overwrite.cli.url' => 'https://relocationsplus.com/owncloud',
+  'dbtype' => 'mysql',
+  'version' => '10.1.1.1',
+  'dbname' => 'relocap_relocdb',
+  'dbhost' => 'localhost',
+  'dbtableprefix' => 'oc_',
+  'dbuser' => 'relocap_relocdb',
+  'dbpassword' => 'X3p1p5S2)@',
+  'logtimezone' => 'UTC',
+  'installed' => true,
+  'theme' => '',
+  'loglevel' => 2,
+  'maintenance' => false,
+  'mail_domain' => 'relocationsplus.com',
+  'mail_from_address' => 'ownCloud',
+  'mail_smtpmode' => 'smtp',
+  'mail_smtphost' => 'mail.relocationsplus.com',
+  'mail_smtpport' => '26',
+  'mail_smtpauthtype' => 'LOGIN',
+  'mail_smtpauth' => 1,
+  'mail_smtpname' => 'davidg@relocationsplus.com',
+  'mail_smtppassword' => '541541dhg',
+);
